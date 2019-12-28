@@ -12,10 +12,10 @@ export default {
       name: 'webfont-extract',
       file: 'dist/webfont-extract.umd.js',
       format: 'umd'
-    },
+    }
   ],
   external: [
-    'graceful-fs',
+    'fs',
     'mkdirp',
     'xmldom'
   ],

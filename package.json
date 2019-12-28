@@ -26,7 +26,7 @@
     "build": "rollup -c"
   },
   "dependencies": {
-    "graceful-fs": "^4.2.3",
+    "fs": "^0.0.1-security",
     "mkdirp": "^0.5.1",
     "xmldom": "^0.2.1"
   },

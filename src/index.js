@@ -1,5 +1,5 @@
 import path from 'path'
-import fs from 'graceful-fs'
+import fs from 'fs'
 import mkdir from 'mkdirp'
 import { DOMParser } from 'xmldom'
 
