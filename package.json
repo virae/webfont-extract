@@ -2,14 +2,15 @@
   "name": "webfont-extract",
   "version": "1.0.0",
   "description": "Extract SVG files from any icon-font",
-  "main": "dist/webfont-extract.umd.js",
-  "module": "dist/webfont-extract.esm.js",
-  "scripts": {
-    "test": "jest"
-  },
+  "author": "virae",
+  "license": "ISC",
+  "homepage": "https://github.com/virae/webfont-extract#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/virae/webfont-extract.git"
+  },
+  "bugs": {
+    "url": "https://github.com/virae/webfont-extract/issues"
   },
   "keywords": [
     "svg",
@@ -17,10 +18,19 @@
     "icon",
     "extract"
   ],
-  "author": "virae",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/virae/webfont-extract/issues"
+  "main": "dist/webfont-extract.umd.js",
+  "module": "dist/webfont-extract.esm.js",
+  "scripts": {
+    "test": "jest"
   },
-  "homepage": "https://github.com/virae/webfont-extract#readme"
+  "dependencies": {
+    "graceful-fs": "^4.2.3",
+    "mkdirp": "^0.5.1",
+    "xmldom": "^0.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "rollup": "^1.27.14",
+    "rollup-plugin-babel": "^4.3.3"
+  }
 }
