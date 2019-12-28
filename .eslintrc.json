@@ -15,5 +15,11 @@
         "ecmaVersion": 2018
     },
     "rules": {
-    }
+    },
+    "overrides": [
+      {
+        "files": ["src/*.js"],
+        "excludedFiles": "*.test.js"
+      }
+    ]
 }
