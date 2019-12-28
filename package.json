@@ -1,5 +1,5 @@
 {
-  "name": "webfont-extract",
+  "name": "@virae/webfont-extract",
   "version": "1.0.0",
   "description": "Extract SVG files from any icon-font",
   "author": "virae",
@@ -20,6 +20,7 @@
   ],
   "main": "dist/webfont-extract.umd.js",
   "module": "dist/webfont-extract.esm.js",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "scripts": {
     "test": "jest",
     "lint": "eslint ./src/**/*.js",
