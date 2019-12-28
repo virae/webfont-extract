@@ -1,0 +1,26 @@
+{
+  "name": "webfont-extract",
+  "version": "1.0.0",
+  "description": "Extract SVG files from any icon-font",
+  "main": "dist/webfont-extract.umd.js",
+  "module": "dist/webfont-extract.esm.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/virae/webfont-extract.git"
+  },
+  "keywords": [
+    "svg",
+    "font",
+    "icon",
+    "extract"
+  ],
+  "author": "virae",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/virae/webfont-extract/issues"
+  },
+  "homepage": "https://github.com/virae/webfont-extract#readme"
+}
