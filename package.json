@@ -22,7 +22,8 @@
   "module": "dist/webfont-extract.esm.js",
   "scripts": {
     "test": "jest",
-    "lint": "eslint ./src/**/*.js"
+    "lint": "eslint ./src/**/*.js",
+    "build": "rollup -c"
   },
   "dependencies": {
     "graceful-fs": "^4.2.3",
