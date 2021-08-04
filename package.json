@@ -29,7 +29,7 @@
   "dependencies": {
     "fs": "^0.0.1-security",
     "mkdirp": "^0.5.1",
-    "xmldom": "^0.2.1"
+    "xmldom": "^0.6.0"
   },
   "devDependencies": {
     "@babel/core": "^7.7.7",
